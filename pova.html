@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .thumbnail-gallery {
+
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+justify-content: center;
+margin-top: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+.gallery-container {
+  width: 70vw;
+  height: 70vh;
+}
+}
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 75px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .thumbnail:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Thumbnail Description */
+  .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    font-style: initial;
+    font-size: 15px;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .thumbnail:hover .description {
+    opacity: 1;
+  }
+   .thumbnail {
+      width: 150px;
+      height: 100%;
+    }
+
+  .description {
+      font-size: 9px;
+}
+    </style>
+</head>
+<body style="background-color: #aaa;">
+    <center><h2 style="background-color: #2b2b2b; color: antiquewhite;">Tecno Pova</h2></center>
+  <!-- Thumbnail Gallery -->
+    <div class="thumbnail-gallery">
+        <a href="22.html">
+            <div class="thumbnail">
+            <img src="22.png" alt="Thumbnail Tecno Pova 6 pro 5G">
+            <div class="description"> Tecno Pova 6 pro 5G</div>
+        </div></a>
+        <a href="1.html">
+          <div class="thumbnail">
+            <img src="1.png" alt="Tecno Pova 3">
+          <div class="description">Tecno Pova 3</div>
+        
+        </div></a>
+        <a href="7.html"></a>
+    
+            <div class="thumbnail">
+              <img src="7.png" alt="Thumbnail Tecno Pova 5 X Free Fire">
+              <div class="description">Tecno Pova 5 X Free Fire</div>
+        
+        </div></a>
+        <a href="11.html">
+          <div class="thumbnail">
+          <img src="11.png" alt="Thumbnail Tecno Pova neo 3">
+          <div class="description">Tecno Pova neo 3</div>
+        
+        </div></a>
+        <a href="29.html">
+          <div class="thumbnail">
+          <img src="29.png" alt="Thumbnail Tecno Pova 4 pro">
+          <div class="description"> Tecno Pova 4 pro</div>
+        </div></a></div>
+        <div class="thumbnail-gallery" style="margin-bottom: 30px;">
+        <a href="27.html">
+            <div class="thumbnail">
+            <img src="27.png" alt="Thumbnail Tecno Pova 30 pro 5G">
+            <div class="description">Tecno Pova 30 pro 5G</div>
+        </div></a>
+        <a href="28.html">
+            <div class="thumbnail">
+            <img src="28.png" alt="Thumbnail Tecno Pova 20 Doodle Edition">
+            <div class="description"> Tecno Pova 20 Doodle Edition</div>
+        </div></a>
+        <a href="26.html">
+          <div class="thumbnail">
+          <img src="26.png" alt="Thumbnail Tecno Pova 30c">
+          <div class="description">Tecno Pova 30c</div>
+        
+        </div></a>
+        <a href="30.html">
+            <div class="thumbnail">
+            <img src="30.png" alt="Thumbnail Tecno Pova 20c">
+            <div class="description"> Tecno Pova 20c</div>
+        </div></a>
+        <a href="8.html">
+            <div class="thumbnail" >
+            <img src="8.png" alt="Thumbnail Tecno Pova 20">
+            <div class="description">  Tecno Pova 20</div>
+            </div></a>
+            
+        </div> <div style="background-color: #2b2b2b; margin: 0%;">.</div>
+</body>
+</html>
